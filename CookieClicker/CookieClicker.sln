@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieClicker", "CookieClicker.csproj", "{B1A99D22-7987-4D80-AD1F-6AA9DF76F2A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieClickerLibrary", "..\CookieClickerLibrary\CookieClickerLibrary.csproj", "{4C14608D-5E34-49E3-B906-C20548066466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A99D22-7987-4D80-AD1F-6AA9DF76F2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A99D22-7987-4D80-AD1F-6AA9DF76F2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A99D22-7987-4D80-AD1F-6AA9DF76F2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A99D22-7987-4D80-AD1F-6AA9DF76F2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C14608D-5E34-49E3-B906-C20548066466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C14608D-5E34-49E3-B906-C20548066466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C14608D-5E34-49E3-B906-C20548066466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C14608D-5E34-49E3-B906-C20548066466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29033DAD-A7A4-4249-A91A-96662259E549}
+	EndGlobalSection
+EndGlobal

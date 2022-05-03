@@ -1,0 +1,13 @@
+C:\Users\Иван\source\repos\CookieClickerLibrary\bin\Debug\netcoreapp3.1\CookieClickerLibrary.deps.json
+C:\Users\Иван\source\repos\CookieClickerLibrary\bin\Debug\netcoreapp3.1\CookieClickerLibrary.runtimeconfig.json
+C:\Users\Иван\source\repos\CookieClickerLibrary\bin\Debug\netcoreapp3.1\CookieClickerLibrary.runtimeconfig.dev.json
+C:\Users\Иван\source\repos\CookieClickerLibrary\bin\Debug\netcoreapp3.1\CookieClickerLibrary.dll
+C:\Users\Иван\source\repos\CookieClickerLibrary\bin\Debug\netcoreapp3.1\CookieClickerLibrary.pdb
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.csproj.AssemblyReference.cache
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.AssemblyInfoInputs.cache
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.AssemblyInfo.cs
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.dll
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.pdb
+C:\Users\Иван\source\repos\CookieClickerLibrary\obj\Debug\netcoreapp3.1\CookieClickerLibrary.genruntimeconfig.cache

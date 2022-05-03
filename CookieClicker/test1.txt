@@ -1,0 +1,24 @@
+﻿@foreach (var building in Model.Player.Buildings)
+                    {
+                     <tr id="@building.Name.ToLower()" class="building">
+                        <td><input type="text" class="inputTD" readonly asp-for="@building.Name"/></td>
+                        <td><input type="text" class="inputTD" readonly asp-for="@building.AmountOwned"/></td>
+                        <td>@(building.BasicProduction * (building.AmountOwned + 1) * 6)</td>
+                        <td hidden><input type="text" class="inputTD" readonly asp-for="@building.BasicProduction"/></td>
+                        
+                    </tr>
+                    }
+
+
+@for (var i = 0; i < Model.Player.Buildings.Count(); i++)
+                    {
+                        <tr id="Buildings[@i].Name.ToLower()" class="building">
+                        <td><input type="text" class="inputTD" readonly asp-for="Buildings[@i].Name" value="Buildings[@i].Name"/></td>
+                        <td><input type="text" class="inputTD" readonly asp-for="Buildings[@i].AmountOwned" value="Buildings[@i].AmountOwned"/></td>
+                        <td>Buildings[@i].BasicProduction * (Buildings[@i].AmountOwned + 1) * 6)</td>
+                        <td hidden><input type="text" class="inputTD" readonly asp-for="Buildings[@i].BasicProduction"/></td>
+                        
+                    </tr>
+                    }
+
+<!-- <div id="cookieAmount">@Html.DisplayFor(m => Model.Player.CookieAmount)</div> --->

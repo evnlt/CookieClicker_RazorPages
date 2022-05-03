@@ -1,0 +1,36 @@
+﻿@page
+@model CookieClicker.Pages.Account.RegisterModel
+@{
+}
+
+<h1>Register</h1>
+<div class="container border" style="padding:20px">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="UserAccount.Nickname"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="UserAccount.Nickname"/>
+            </div>
+            <span class="text-danger" asp-validation-for="UserAccount.Nickname"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="UserAccount.Password"></label>
+            </div>
+            <div class="col-5">
+                <input type="password" asp-for="UserAccount.Password"/>
+            </div>
+            <span class="text-danger" asp-validation-for="UserAccount.Password"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <input type="submit" class="btn btn-primary" value="Register">
+            </div>
+            <div class="col-5">
+            </div>
+        </div>
+    </form>
+</div>

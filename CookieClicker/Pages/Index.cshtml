@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+
+<link rel="stylesheet" href="~/css/index.css">
+
+<form method="post" id="form">
+
+<input hidden asp-for="Player.Id"/>
+<input hidden asp-for="Player.UserId"/>
+
+<div class="row no-gutters">
+    <div class="no-gutters first-column">
+            <img id="cookie" src="~/img/cookie.png"/>
+                <input type="text" id="cookieAmount" readonly asp-for="Player.CookieAmount"/>
+
+                <div id="totalCpS">0 CpS</div>
+                <input hidden type="text" id="totalCpSReal" asp-for="Player.Cps"/>
+
+                <br />
+                <button type="submit" class="btn btn-primary">Save Progress</button>
+               
+    </div>
+
+    <div class="no-gutters second-column">
+        <div class="col-12 border p-3 mt-3">
+                <table class="table table-striped border">
+                    <tr>
+                        <th>Building</th>
+                        <th>Amount Owned</th>
+                        <th>Buy 1</th>
+                    </tr>
+
+                    @for (var i = 0; i < Model.Player.Buildings.Count(); i++)
+                    {
+                        <tr id="@(Model.Buildings[i].Name.ToLower())" class="building">
+
+                            <td><input type="text" class="inputTD" readonly asp-for="Buildings[i].Name" value="@(Model.Buildings[i].Name)"/></td>
+                            <td><input type="text" class="inputTD" readonly asp-for="Buildings[i].AmountOwned" value="@(Model.Buildings[i].AmountOwned)"/></td>
+                            <td>@(Model.Buildings[i].BasicProduction * (Model.Buildings[i].AmountOwned + 1) * 6)</td>
+
+                            <td hidden><input type="text" asp-for="Buildings[i].BasicProduction"/></td>
+                            <td hidden><input type="text" asp-for="Buildings[i].Id"/></td>
+                        </tr>
+                    }
+                </table>
+    </div>
+    </div>
+</div>
+</form>
+
+<script src="~/js/index.js"></script>
